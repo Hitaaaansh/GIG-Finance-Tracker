@@ -24,8 +24,9 @@ export default function RootLayout({
     <html
       lang="en"
       className="h-full"
+      data-scroll-behavior="smooth"
     >
-      <body className="min-h-full flex flex-col antialiased">
+      <body className="min-h-full flex flex-col antialiased bg-[#F5F4EF] text-[#182B2A]">
         <I18nProvider>
           <AuthProvider>
             {children}
